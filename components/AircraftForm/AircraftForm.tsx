@@ -6,11 +6,11 @@ export default function AircraftForm() {
             <form>
                 <div className={"row form-container"}>
                     <div className={"col-12 mb-4 col-sm-6 col-md-4 col-lg-3"}>
-                        <input name={"manufacturer"} aria-label={"Manufacturer"} maxLength={30} placeholder={"Airbus"}
+                        <input required={true} name={"manufacturer"} aria-label={"Manufacturer"} maxLength={30} placeholder={"Airbus"}
                                className={"form-control"}/>
                     </div>
                     <div className={"col-12 mb-4 col-sm-6 col-md-4 col-lg-3"}>
-                        <input name={"model"} aria-label={"Model"} maxLength={50} placeholder={"A320 Neo"}
+                        <input required={true} name={"model"} aria-label={"Model"} maxLength={50} placeholder={"A320 Neo"}
                                className={"form-control"}/>
                     </div>
 
