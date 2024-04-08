@@ -1,0 +1,21 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(74, 171, 206);
+}
+
+.logo-container {
+  place-content: center;
+  margin-top: 100px;
+}
+
+.logo-img {
+  width: 700px;
+}
+
