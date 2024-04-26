@@ -1,36 +1,31 @@
-import "./SpecModal.css"
-import { useRef } from 'react';
-export default function SpecModal() {
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+import ISpecModalProps from "./ISpecModalProps.ts"
 
-    const modalRef = useRef<HTMLDivElement>(null);
-    const showModal = () => {
-        if (modalRef.current) {
-            // Show the modal
-            const modal = new window.bootstrap.Modal(modalRef.current);
-            modal.show();
-        }
-    };
-
+function SpecModal(airCraftProps: ISpecModalProps) {
     return (
-        <>
-            <div className="modal fade" ref={modalRef} tabIndex={-1} aria-hidden="true">
-                <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div className="modal-content">
-                        <div className="modal-header">
-                            <h5 className="modal-title">🍌 Aircraft Spec</h5>
-                            <button type="button" className="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                        </div>
-                        <div className="modal-body">
-                            ... Bananas
-                        </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" >Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </>
+        <Modal
+            {...airCraftProps}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    🍌📏 {airCraftProps && airCraftProps.Model_FAA}
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <h4>Centered Modal</h4>
+                <p>
+                    Measurement data!
+                </p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button onClick={airCraftProps.onHide}>Close</Button>
+            </Modal.Footer>
+        </Modal>
     );
 }
+
+export default SpecModal;
