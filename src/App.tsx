@@ -1,6 +1,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './assets/BananaCraftSpec-logo.svg';
+import logo from './assets/images/BananaCraftSpec-logo.svg';
 import AircraftForm from "../components/AircraftForm/AircraftForm.tsx";
 
 function App() {
