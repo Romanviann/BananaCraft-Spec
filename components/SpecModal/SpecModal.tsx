@@ -1,18 +1,19 @@
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import ISpecModalProps from "./ISpecModalProps.ts"
 
-function SpecModal(airCraftProps: ISpecModalProps) {
+
+function SpecModal({aircraftSpecs, ...props}) {
+
     return (
         <Modal
-            {...airCraftProps}
+            {...props}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
         >
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    🍌📏 {airCraftProps && airCraftProps.Model_FAA}
+                    🍌📏 {aircraftSpecs.Model_FAA}
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -22,7 +23,7 @@ function SpecModal(airCraftProps: ISpecModalProps) {
                 </p>
             </Modal.Body>
             <Modal.Footer>
-                <Button onClick={airCraftProps.onHide}>Close</Button>
+                <Button onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>
     );
