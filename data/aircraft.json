@@ -14,7 +14,7 @@
     "Cockpit_to_Main_Gear_ft": "17,9",
     "Main_Gear_Width_ft": "18,3",
     "MTOW_lb": 50.045,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.935,3",
     "Class": "Fixed-wing"
@@ -1114,7 +1114,7 @@
     "Cockpit_to_Main_Gear_ft": "43,2",
     "Main_Gear_Width_ft": "47,4",
     "MTOW_lb": 375.998,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Heavy",
     "Parking_Area_ft2": "13.468,0",
     "Class": "Fixed-wing"
@@ -1274,7 +1274,7 @@
     "Cockpit_to_Main_Gear_ft": "81,4",
     "Main_Gear_Width_ft": "16,3",
     "MTOW_lb": 488,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Heavy",
     "Parking_Area_ft2": "32.350,5",
     "Class": "Fixed-wing"
@@ -2194,7 +2194,7 @@
     "Cockpit_to_Main_Gear_ft": "7,1",
     "Main_Gear_Width_ft": "14,0",
     "MTOW_lb": 6.305,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "2.018,5",
     "Class": "Fixed-wing"
@@ -2374,7 +2374,7 @@
     "Cockpit_to_Main_Gear_ft": "7,2",
     "Main_Gear_Width_ft": "11,1",
     "MTOW_lb": 4.2,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.478,7",
     "Class": "Fixed-wing"
@@ -2474,7 +2474,7 @@
     "Cockpit_to_Main_Gear_ft": "14,5",
     "Main_Gear_Width_ft": "6,9",
     "MTOW_lb": 2.15,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.292,8",
     "Class": "Fixed-wing"
@@ -3746,7 +3746,7 @@
     "Model_FAA": "Canadair 41 Tutor",
     "Physical_Class_Engine": "Jet",
     "Num_Engines": 1,
-    "Approach_Speed_knot": null,
+    "Approach_Speed_knot": "N/A",
     "Wingspan_ft_without_winglets_sharklets": "36,5",
     "Length_ft": "32,0",
     "Tail_Height_at_OEW_ft": "9,4",
@@ -3754,7 +3754,7 @@
     "Cockpit_to_Main_Gear_ft": "12,5",
     "Main_Gear_Width_ft": "14,3",
     "MTOW_lb": 7.787,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.720,5",
     "Class": "Fixed-wing"
@@ -3846,7 +3846,7 @@
     "Model_FAA": "HELIO U-10 Super Courier",
     "Physical_Class_Engine": "Piston",
     "Num_Engines": 1,
-    "Approach_Speed_knot": null,
+    "Approach_Speed_knot": "N/A",
     "Wingspan_ft_without_winglets_sharklets": "39,0",
     "Length_ft": "31,0",
     "Tail_Height_at_OEW_ft": "14,7",
@@ -4314,7 +4314,7 @@
     "Cockpit_to_Main_Gear_ft": "22,2",
     "Main_Gear_Width_ft": "10,6",
     "MTOW_lb": 5.1,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "2.044,5",
     "Class": "Fixed-wing"
@@ -4794,7 +4794,7 @@
     "Cockpit_to_Main_Gear_ft": "21,5",
     "Main_Gear_Width_ft": "10,8",
     "MTOW_lb": 80.998,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.632,6",
     "Class": "Fixed-wing"
@@ -4814,7 +4814,7 @@
     "Cockpit_to_Main_Gear_ft": "15,9",
     "Main_Gear_Width_ft": "8,7",
     "MTOW_lb": 42.3,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "2.322,1",
     "Class": "Fixed-wing"
@@ -4834,7 +4834,7 @@
     "Cockpit_to_Main_Gear_ft": "20,7",
     "Main_Gear_Width_ft": "11,7",
     "MTOW_lb": 56,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.074,4",
     "Class": "Fixed-wing"
@@ -4854,7 +4854,7 @@
     "Cockpit_to_Main_Gear_ft": "20,7",
     "Main_Gear_Width_ft": "11,7",
     "MTOW_lb": 66,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.561,0",
     "Class": "Fixed-wing"
@@ -4874,7 +4874,7 @@
     "Cockpit_to_Main_Gear_ft": "25,8",
     "Main_Gear_Width_ft": "11,5",
     "MTOW_lb": 83.5,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.657,0",
     "Class": "Fixed-wing"
@@ -5694,7 +5694,7 @@
     "Cockpit_to_Main_Gear_ft": "14,4",
     "Main_Gear_Width_ft": "8,1",
     "MTOW_lb": 2.05,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.280,4",
     "Class": "Fixed-wing"
@@ -5994,7 +5994,7 @@
     "Cockpit_to_Main_Gear_ft": "6,3",
     "Main_Gear_Width_ft": "7,6",
     "MTOW_lb": 3.8,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.278,0",
     "Class": "Fixed-wing"
@@ -6534,7 +6534,7 @@
     "Cockpit_to_Main_Gear_ft": "56,4",
     "Main_Gear_Width_ft": "22,1",
     "MTOW_lb": 189.2,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "17.969,2",
     "Class": "Fixed-wing"
@@ -6834,7 +6834,7 @@
     "Cockpit_to_Main_Gear_ft": "7,0",
     "Main_Gear_Width_ft": "8,8",
     "MTOW_lb": 4.8,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.586,0",
     "Class": "Fixed-wing"
@@ -7254,7 +7254,7 @@
     "Cockpit_to_Main_Gear_ft": "14,1",
     "Main_Gear_Width_ft": "7,9",
     "MTOW_lb": 22.994,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "2.838,9",
     "Class": "Fixed-wing"
@@ -7314,7 +7314,7 @@
     "Cockpit_to_Main_Gear_ft": "10,9",
     "Main_Gear_Width_ft": "12,7",
     "MTOW_lb": 6,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.735,9",
     "Class": "Fixed-wing"
@@ -7534,7 +7534,7 @@
     "Cockpit_to_Main_Gear_ft": "18,7",
     "Main_Gear_Width_ft": "11,2",
     "MTOW_lb": 12.093,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Light",
     "Parking_Area_ft2": "1.810,9",
     "Class": "Fixed-wing"
@@ -7706,7 +7706,7 @@
     "Model_FAA": "Bell V-22 Osprey",
     "Physical_Class_Engine": "Turboshaft",
     "Num_Engines": 2,
-    "Approach_Speed_knot": null,
+    "Approach_Speed_knot": "N/A",
     "Wingspan_ft_without_winglets_sharklets": "45,8",
     "Length_ft": "63,0",
     "Tail_Height_at_OEW_ft": "22,1",
@@ -7714,7 +7714,7 @@
     "Cockpit_to_Main_Gear_ft": "24,3",
     "Main_Gear_Width_ft": "16,2",
     "MTOW_lb": 60.5,
-    "MALW_lb": null,
+    "MALW_lb": "N/A",
     "ICAO_WTC": "Medium",
     "Parking_Area_ft2": "3.7964",
     "Class": "Tiltrotor"

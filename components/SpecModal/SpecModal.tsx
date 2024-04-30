@@ -5,7 +5,9 @@ import "./SpecModal.css";
 import ISpecProps from "./ISpecProps.ts";
 
 interface SpecModalProps {
-    aircraftSpecs: ISpecProps;
+    aircraftSpecs: ISpecProps,
+    show?: boolean,
+    onHide?: () => void
 }
 
 function SpecModal({aircraftSpecs, ...props}: SpecModalProps) {

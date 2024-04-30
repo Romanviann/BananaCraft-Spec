@@ -6,7 +6,7 @@ import ISpecProps from "../SpecModal/ISpecProps.ts"
 import ErrorToast from "../ErrorToast/ErrorToast.tsx";
 
 export default function AircraftForm() {
-    const [aircraftSpecs, setAircraftSpecs] = useState<ISpecProps>({});
+    const [aircraftSpecs, setAircraftSpecs] = useState<ISpecProps>(aircraft[0]);
     const [aircraftFound, setAircraftFound] = useState<boolean>(false);
     const [showError, setShowError] = useState<boolean>(false);
 
