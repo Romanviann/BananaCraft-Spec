@@ -48,10 +48,10 @@ function SpecModal({aircraftSpecs, ...props}: SpecModalProps) {
                 <SpecTable columns={columns} rowTitles={rowTitles} rows={rows}/>
             </Modal.Body>
             <Modal.Footer>
-                <p className={"disclaimer"}>ⓘ Imperial specs are based off of the <a
+                <p className={"disclaimer"}>ⓘ Imperial specs are based off of the <a target={"_blank"}
                     href={"https://www.faa.gov/airports/engineering/aircraft_char_database"}>Aircraft Characteristic
                     Database</a> -
-                    U.S. Federal Aviation Administration, conversions were made based on the <a
+                    U.S. Federal Aviation Administration, conversions were made based on the <a target={"_blank"}
                         href={"https://medium.com/@liamfoley2430/on-the-usefulness-of-bananas-a-new-system-of-measurement-76c50d8bb89a"}> Banana
                         Standard System of
                         Weights and Measurements</a></p>
