@@ -1,6 +1,7 @@
 .form-container {
     place-content: center;
     padding: 35px;
+    margin-bottom: 50px;
 }
 
 .button-link {
