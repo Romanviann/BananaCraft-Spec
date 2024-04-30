@@ -3,7 +3,7 @@ import Table from 'react-bootstrap/Table';
 interface SpecTableProps {
     columns: string[];
     rowTitles: string[];
-    rows: string[][];
+    rows: (string | null)[][];
 }
 
 function SpecTable({columns, rowTitles, rows}: SpecTableProps) {
